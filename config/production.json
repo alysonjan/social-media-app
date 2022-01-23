@@ -1,0 +1,7 @@
+{
+    "mongoURI":"mongodb+srv://ajax123:ajax123@devconnector.e6fg9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret":"19aeeef4cb24388d39b8925e281ce9b160a7fd8077a380d285ea53070483ca214219c6b84f254979a3813f9785803b18be66c57b5cc47520a7942d2890e9d98e",
+    "hashKey":"5ea9fcbc8c9d9748b1ac12371e13c4db050736d8a55c43d48e151503ed65d7af272c8ac4d7da4b2a5b08095be4121212cf22aa291abaab9edce6587893a0bedb",
+    "githubClientId": "72c8aa27bb7519e60f20",
+    "githubSecret": "24c4406a8bce41a3f480dda0a0f40758f501914c"
+}
