@@ -11,7 +11,7 @@ connectDB();
 //INIT MIDDLEWARE
 app.use(express.json({ extended: false }))
 app.use(cors({
-    origin: ["http://localhost:3000","https://arcane-anchorage-30894.herokuapp.com"],
+    origin: ["http://localhost:3000","https://fast-spire-97007.herokuapp.com"],
     methods:["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
