@@ -55,8 +55,6 @@ async(req,res) => {
             }
         };
 
-        
-
         const token = jwt.sign(payload, config.get('jwtSecret'), {expiresIn: '8h'} )
         const encryptedToken = CryptoJS.AES.encrypt(token, config.get('hashKey')).toString();
         res.json({encryptedToken})
